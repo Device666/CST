@@ -1,0 +1,11 @@
+Seriously needed making story scripts:
+1. Nestable "Or" and "And" gates (especially handy "when used in conjunction within "conditions" section)
+2. "Multiply" and "Divide" options on values
+3. Ability to create functions with custom local parameters
+4. Read X coordinates of characters, movetargets, items
+5. Read Y coordinates of characters, movetargets, items
+6. Read Z coordinates of characters, movetargets, items
+
+Fast calculations
+* Read 2D Distance between characters and characters, items and movetargets
+* Read 3D Distance between characters and characters, items and movetargets

@@ -1,0 +1,3469 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1304537808074974}
+  m_IsPrefabParent: 1
+--- !u!1 &1304537808074974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4949910495408840}
+  - component: {fileID: 114705702108403278}
+  m_Layer: 0
+  m_Name: AshleyStory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4949910495408840
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304537808074974}
+  m_LocalRotation: {x: -0, y: 0.600141, z: -0, w: 0.7998942}
+  m_LocalPosition: {x: 0.030415148, y: 1.1768249, z: 1.4006784}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114705702108403278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1304537808074974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1154295991, guid: d650bb8f89616134290991c0e37ad16a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Data:
+    CharacterName: Ashley
+    CurrentAspect: 4
+    DialogueID: 0
+    Dialogues:
+    - AlternateTexts: []
+      CharacterID: 
+      CloseEvents: []
+      ID: 0
+      Important: 0
+      LookAtListener: 1
+      Responses: []
+      ShowAcceptedItems: 0
+      ShowAlternateTexts: 0
+      ShowCloseValueAdjustments: 0
+      ShowCritera: 0
+      ShowGlobalGoodByeResponses: 0
+      ShowGlobalResponses: 0
+      Shown: 0
+      DoesNotCountAsMet: 0
+      ShowResponses: 0
+      ShowStartValueAdjustments: 0
+      SpeakingToCharacterName: Player
+      StartCriteria: []
+      StartEvents: []
+      Text: Enter dialogue text here.
+    GlobalGoodbyeResponses: []
+    GlobalResponses: []
+    HousePartyVersion: 0.10.4
+    LockCharacterSelection: 1
+    LockStoryName: 1
+    Personality:
+      Values:
+      - Type: 0
+        Value: 0
+      - Type: 1
+        Value: 0
+      - Type: 2
+        Value: 0
+      - Type: 3
+        Value: 0
+      - Type: 4
+        Value: 0
+      - Type: 5
+        Value: 0
+      - Type: 6
+        Value: 0
+      - Type: 7
+        Value: 0
+      - Type: 8
+        Value: 0
+      - Type: 9
+        Value: 0
+      - Type: 10
+        Value: 0
+      - Type: 11
+        Value: 0
+      - Type: 12
+        Value: 0
+      - Type: 13
+        Value: 0
+      - Type: 14
+        Value: 0
+      - Type: 15
+        Value: 0
+      - Type: 16
+        Value: 0
+    QuestImageLibrary:
+      Folder: QuestImages
+      Images:
+      - None
+      - Ashley
+      - AshleyClothedEmbarrassed
+      - AshleyHappy
+      - AshleyNakedEmbarrassed
+      - AshleyPose1
+      - Brittney
+      - BrittneySad
+      - BrittneySurprised
+      - Frank
+      - iPhone
+      - iPhoneKeyPad
+      - Katherine
+      - KatherineHandsOnHips
+      - KatherineUpset
+      - Madison
+      - MadisonHappy
+      - MadisonSexy
+      - MadisonWorried
+      - Patrick
+      - PatrickDrunk
+      - PatrickSad
+      - PhoneInHand
+      - Rachael
+      - RachaelPensive
+      - RachaelShy
+      - Stephanie
+      - StephaniePose1
+      - StephaniePose2
+      - StephaniePose3
+      - StephaniePose4
+      - StephaniePose5
+      FileCount: 62
+    Quests: []
+    Reactions:
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterOutside
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterInside
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onUpstairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onDownstairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 1c6620ab-cfc1-4f16-afc6-a62c318910cf
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: DownstairsHallwayQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 1c6620ab-cfc1-4f16-afc6-a62c318910cf
+          Key2: DownstairsHallwayQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 1c6620ab-cfc1-4f16-afc6-a62c318910cf
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DownstairsHallwayQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 1c6620ab-cfc1-4f16-afc6-a62c318910cf
+          Key2: DownstairsHallwayQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterDownstairsHallway
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 643519b5-a1c3-4c58-a709-5d01845a8683
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: TvRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 643519b5-a1c3-4c58-a709-5d01845a8683
+          Key2: TvRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 643519b5-a1c3-4c58-a709-5d01845a8683
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: TvRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 643519b5-a1c3-4c58-a709-5d01845a8683
+          Key2: TvRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterTvRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 01851cd4-e0d3-4a8a-a169-9517f642c829
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: DiningRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 01851cd4-e0d3-4a8a-a169-9517f642c829
+          Key2: DiningRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 01851cd4-e0d3-4a8a-a169-9517f642c829
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DiningRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 01851cd4-e0d3-4a8a-a169-9517f642c829
+          Key2: DiningRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterDiningRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 0657ac26-0ab9-4852-8ae6-4a16e853f622
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: KitchenQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 0657ac26-0ab9-4852-8ae6-4a16e853f622
+          Key2: KitchenQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 0657ac26-0ab9-4852-8ae6-4a16e853f622
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: KitchenQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 0657ac26-0ab9-4852-8ae6-4a16e853f622
+          Key2: KitchenQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterKitchen
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 3c34b202-ca26-4065-9e6a-f708805d8982
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: LivingRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 3c34b202-ca26-4065-9e6a-f708805d8982
+          Key2: LivingRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 3c34b202-ca26-4065-9e6a-f708805d8982
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: LivingRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 3c34b202-ca26-4065-9e6a-f708805d8982
+          Key2: LivingRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterLivingRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 4428b089-0d7b-4875-9142-723d88916dc7
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: GarageQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 4428b089-0d7b-4875-9142-723d88916dc7
+          Key2: GarageQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 4428b089-0d7b-4875-9142-723d88916dc7
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: GarageQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 4428b089-0d7b-4875-9142-723d88916dc7
+          Key2: GarageQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterGarage
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 06d1e03c-b553-4424-9a48-10777a876576
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: DownstairsBathroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 06d1e03c-b553-4424-9a48-10777a876576
+          Key2: DownstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 06d1e03c-b553-4424-9a48-10777a876576
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DownstairsBathroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 06d1e03c-b553-4424-9a48-10777a876576
+          Key2: DownstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterDownstairsBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 1d8c21dd-78f8-4601-8ff6-21033302abac
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: StairsQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 1d8c21dd-78f8-4601-8ff6-21033302abac
+          Key2: StairsQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 1d8c21dd-78f8-4601-8ff6-21033302abac
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: StairsQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 1d8c21dd-78f8-4601-8ff6-21033302abac
+          Key2: StairsQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterStairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: a644bfad-1691-4f65-b870-983da0e0271a
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: UpstairsHallwayQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: a644bfad-1691-4f65-b870-983da0e0271a
+          Key2: UpstairsHallwayQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: a644bfad-1691-4f65-b870-983da0e0271a
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: UpstairsHallwayQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: a644bfad-1691-4f65-b870-983da0e0271a
+          Key2: UpstairsHallwayQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterUpstairsHallway
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: f86d01ee-e392-45d0-b884-0178b2eae057
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: f86d01ee-e392-45d0-b884-0178b2eae057
+          Key2: MasterBedroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: f86d01ee-e392-45d0-b884-0178b2eae057
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: f86d01ee-e392-45d0-b884-0178b2eae057
+          Key2: MasterBedroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterMasterBedroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: b8200ee3-479b-4db7-bb4c-2c242723fbc0
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomBathroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: b8200ee3-479b-4db7-bb4c-2c242723fbc0
+          Key2: MasterBedroomBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: b8200ee3-479b-4db7-bb4c-2c242723fbc0
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomBathroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: b8200ee3-479b-4db7-bb4c-2c242723fbc0
+          Key2: MasterBedroomBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterMasterBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 3d0b79e5-2c6f-4602-aae4-b80d54143dfe
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomClosetQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 3d0b79e5-2c6f-4602-aae4-b80d54143dfe
+          Key2: MasterBedroomClosetQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 3d0b79e5-2c6f-4602-aae4-b80d54143dfe
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroomClosetQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 3d0b79e5-2c6f-4602-aae4-b80d54143dfe
+          Key2: MasterBedroomClosetQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterMasterBedroomCloset
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 40e37e54-359a-40bc-95e6-e93af1b790e2
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom2Quest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 40e37e54-359a-40bc-95e6-e93af1b790e2
+          Key2: SpareRoom2Quest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 40e37e54-359a-40bc-95e6-e93af1b790e2
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom2Quest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 40e37e54-359a-40bc-95e6-e93af1b790e2
+          Key2: SpareRoom2Quest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterSpareRoom2
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: b0582e60-c7b4-40b7-a7ff-d3ffe0ea209b
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: LaundryRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: b0582e60-c7b4-40b7-a7ff-d3ffe0ea209b
+          Key2: LaundryRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: b0582e60-c7b4-40b7-a7ff-d3ffe0ea209b
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: LaundryRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: b0582e60-c7b4-40b7-a7ff-d3ffe0ea209b
+          Key2: LaundryRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterLaundryRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 38f4e11a-401a-4036-af86-845623fd3f03
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: StudyQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 38f4e11a-401a-4036-af86-845623fd3f03
+          Key2: StudyQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 38f4e11a-401a-4036-af86-845623fd3f03
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: StudyQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 38f4e11a-401a-4036-af86-845623fd3f03
+          Key2: StudyQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterStudy
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: f2c84ab0-b0c2-48c2-829c-ce7d02f9af84
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: SapreRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: f2c84ab0-b0c2-48c2-829c-ce7d02f9af84
+          Key2: SapreRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: f2c84ab0-b0c2-48c2-829c-ce7d02f9af84
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SapreRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: f2c84ab0-b0c2-48c2-829c-ce7d02f9af84
+          Key2: SapreRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterSpareRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: c8781468-5951-44e4-8a05-f6241760bc8d
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: c8781468-5951-44e4-8a05-f6241760bc8d
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: c8781468-5951-44e4-8a05-f6241760bc8d
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: c8781468-5951-44e4-8a05-f6241760bc8d
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterUpstairsBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: c8781468-5951-44e4-8a05-f6241760bc8d
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: c8781468-5951-44e4-8a05-f6241760bc8d
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 0e76dd11-4aa2-4634-8ca8-642db6e1fb39
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: c8781468-5951-44e4-8a05-f6241760bc8d
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: c8781468-5951-44e4-8a05-f6241760bc8d
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
+      Key: 
+      Name: onEnterBehindBushes
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterGazebo
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterPartyPoint
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterHotTub
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterFirepit
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterCornerLeft
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: onEnterCornerRight
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DownstairsHallway
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterDownstairsHallway
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterDownstairsHallway
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: TvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterTvRoom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterTvRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DiningRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterDiningRoom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterDiningRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Kitchen
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterKitchen
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterKitchen
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: LivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterLivingRoom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterLivingRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Garage
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterGarage
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterGarage
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: Ashley:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: DownstairsBathroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onDownstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Downstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterDownstairsBathroom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterDownstairsBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Stairs
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onUpstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Upstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterStairs
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterStairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: UpstairsHallway
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Player
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onUpstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Player
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Upstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterUpstairsHallway
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterUpstairsHallway
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: currentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: MasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onUpstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Ashley
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Upstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterMasterBedroom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onEnterMasterBedroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 714bf957-6dbf-48f7-b4f2-8f4c7f09061e
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: MasterBathroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onEnterInside
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Player
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: isInside
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: 1b42a979-850c-47bb-be50-0644fa0a83a8
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onUpstairs
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: Player
+          Character2: '#'
+          CompareType: 0
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 10
+          ItemComparison: 0
+          Key: currentFloor
+          Key2: '#'
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: Upstairs
+      - Version: 2.0
+        Id: 1cf4990d-7a98-408c-a7b4-ab778a627253
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterMasterBathroom
+        Value2: 
+        SortOrder: 3
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterMasterBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterMasterBedroomCloset
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterSpareRoom2
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterLaundryRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterStudy
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterSpareRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterUpstairsBathroom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterBehindBushes
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterGazebo
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterPartyPoint
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterHotTub
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterFirepit
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterCornerLeft
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onEnterCornerRight
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Ashley
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 7ab90db7-f41f-450a-b50e-e26bd136c30b
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: Ashley:currentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: None
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onGameInit
+      ShowInInspector: 0
+      Type: 1
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _onTimer
+      ShowInInspector: 0
+      Type: 80
+      UpdateIteration: 0.2
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events: []
+      Key: 
+      Name: _TrackRooms
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 6ba08ea2-2895-496a-851c-71f788010f73
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: currentFloor
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Downstairs
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 3f25dabb-9944-49c8-bc48-9feb8bc75e77
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onDownstairs
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onDownstairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 6ba08ea2-2895-496a-851c-71f788010f73
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: currentFloor
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Upstairs
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 3f25dabb-9944-49c8-bc48-9feb8bc75e77
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onUpstairs
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onUpstairs
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 6ba08ea2-2895-496a-851c-71f788010f73
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: isInside
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: 1
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 3f25dabb-9944-49c8-bc48-9feb8bc75e77
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterInside
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterInside
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: 6ba08ea2-2895-496a-851c-71f788010f73
+        Enabled: 1
+        EventType: 0
+        Character: Ashley
+        Character2: 
+        Key: isInside
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: 0
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: 3f25dabb-9944-49c8-bc48-9feb8bc75e77
+        Enabled: 1
+        EventType: 5
+        Character: Ashley
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onEnterOutside
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onEnterOutside
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    StoryItems: []
+    StoryName: New Story
+    WrittenWithVersion: 0.7.0

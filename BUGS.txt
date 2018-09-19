@@ -1,0 +1,2 @@
+"Warpto Stephanie Garage"
+When starting game doesnt warp her to movetarget "Garage", it warps to another spot.

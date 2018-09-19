@@ -1,0 +1,22 @@
+CTC
+* Nestable "Or" and "And" gates (especially handy "when used in conjunction within "conditions" section)
+* "Multiply" and "Divide" options on values
+* Read 2D Distance between characters and characters, items and movetargets
+* Read 3D Distance between characters and characters, items and movetargets
+* Read X coordinates of chracters, movetargets, items
+* Read Y coordinates of chracters, movetargets, items
+* Read Z coordinates of chracters, movetargets, items
+
+* Read and write angle around characters z-axis (so more refined that just turn)
+* Read angle between player and movetarget/item
+* Write position of characters on X,Y coordinates (automatically adapting to floor)
+* A precise way to know which character is in what room 
+
+* Every character has a bra, underwear instead of a few (not neccesarily wearing it by default but optional)
+* Warpto movetargets and a "warpTargetReached" kind of event 
+* Scriptable bodypart equivalent of commandline command "bodypart"
+* Scriptable amount of cum
+* Scriptable placement of cum (so it can be scripted on which bodypart bodypart it should go to)
+
+
+
