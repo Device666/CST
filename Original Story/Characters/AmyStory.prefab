@@ -379,6 +379,20 @@ MonoBehaviour:
       SeenByPlayer: 0
       ShowProgress: 0
       Status: 0
+    - CompleteAt: 1000
+      CurrentValue: 0
+      Details: LaundryRoom
+      Icon: 100
+      ID: 7d581580-f68c-4f8e-8964-37c9a24441d0
+      Name: LaundryRoomQuest
+      ObtainOnStart: 0
+      QuestCompleteImage: QuestImages/iPhone
+      QuestProgressImage: QuestImages/iPhone
+      QuestStartImage: QuestImages/iPhone
+      QuestFailedImage: QuestImages/iPhone
+      SeenByPlayer: 0
+      ShowProgress: 0
+      Status: 0
     Reactions:
     - CharacterToReactTo: Player
       Critera: []
@@ -924,7 +938,7 @@ MonoBehaviour:
           Character2: '#'
           CompareType: 100
           DialogueStatus: 10
-          DisplayInEditor: 1
+          DisplayInEditor: 0
           DoorOptions: 0
           EqualsValue: 0
           EquationValue: 0
@@ -959,7 +973,7 @@ MonoBehaviour:
           Character2: '#'
           CompareType: 100
           DialogueStatus: 10
-          DisplayInEditor: 1
+          DisplayInEditor: 0
           DoorOptions: 0
           EqualsValue: 0
           EquationValue: 0
@@ -1884,7 +1898,77 @@ MonoBehaviour:
       Critera: []
       CurrentIteration: 0
       Enabled: 1
-      Events: []
+      Events:
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 03ca92ca-a680-4bfa-bc9f-1f5a482181a7
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom2Quest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 03ca92ca-a680-4bfa-bc9f-1f5a482181a7
+          Key2: SpareRoom2Quest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 03ca92ca-a680-4bfa-bc9f-1f5a482181a7
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom2Quest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 03ca92ca-a680-4bfa-bc9f-1f5a482181a7
+          Key2: SpareRoom2Quest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
       Key: 
       Name: onPlayerEnterSpareRoom2
       ShowInInspector: 0
@@ -1896,7 +1980,77 @@ MonoBehaviour:
       Critera: []
       CurrentIteration: 0
       Enabled: 1
-      Events: []
+      Events:
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 7d581580-f68c-4f8e-8964-37c9a24441d0
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: LaundryRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 7d581580-f68c-4f8e-8964-37c9a24441d0
+          Key2: LaundryRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: 7d581580-f68c-4f8e-8964-37c9a24441d0
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: LaundryRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: 7d581580-f68c-4f8e-8964-37c9a24441d0
+          Key2: LaundryRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
       Key: 
       Name: onPlayerEnterLaundryRoom
       ShowInInspector: 0
@@ -1908,7 +2062,77 @@ MonoBehaviour:
       Critera: []
       CurrentIteration: 0
       Enabled: 1
-      Events: []
+      Events:
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: d646d9f1-ad90-4292-b740-82a3179ebe38
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: StudyQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: d646d9f1-ad90-4292-b740-82a3179ebe38
+          Key2: StudyQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: d646d9f1-ad90-4292-b740-82a3179ebe38
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: StudyQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: d646d9f1-ad90-4292-b740-82a3179ebe38
+          Key2: StudyQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
       Key: 
       Name: onPlayerEnterStudy
       ShowInInspector: 0
@@ -1920,7 +2144,77 @@ MonoBehaviour:
       Critera: []
       CurrentIteration: 0
       Enabled: 1
-      Events: []
+      Events:
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: aa0d742c-8cba-4dff-9e07-5531650df9c4
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: SpareRoomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: aa0d742c-8cba-4dff-9e07-5531650df9c4
+          Key2: SpareRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: aa0d742c-8cba-4dff-9e07-5531650df9c4
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SpareRoomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: aa0d742c-8cba-4dff-9e07-5531650df9c4
+          Key2: SpareRoomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
       Key: 
       Name: onPlayerEnterSpareRoom
       ShowInInspector: 0
@@ -1932,7 +2226,77 @@ MonoBehaviour:
       Critera: []
       CurrentIteration: 0
       Enabled: 1
-      Events: []
+      Events:
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: d2f0a37a-362b-4ade-93f0-03b1afb74e98
+        Option: 1
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: d2f0a37a-362b-4ade-93f0-03b1afb74e98
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1
+      - Version: 2.0
+        Id: bbd71787-e929-41d8-a8d7-7ff1234da8f7
+        Enabled: 1
+        EventType: 80
+        Character: Anybody
+        Character2: 
+        Key: d2f0a37a-362b-4ade-93f0-03b1afb74e98
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: UpstairsBathroomQuest
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 1
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 100
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: d2f0a37a-362b-4ade-93f0-03b1afb74e98
+          Key2: UpstairsBathroomQuest
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0
       Key: 
       Name: onPlayerEnterUpstairsBathroom
       ShowInInspector: 0
@@ -2111,7 +2475,25 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
+        Criteria: []
+      - Version: 2.0
+        Id: 5baa80e8-f7b5-47cb-8c05-2621aa0340ab
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerMoveTargets
+        Value2: 
+        SortOrder: 2
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerTimer
@@ -2126,57 +2508,23 @@ MonoBehaviour:
       Enabled: 1
       Events:
       - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
+        Id: 8bc8a734-d126-4b6a-b840-2c9c9cd6e618
         Enabled: 1
         EventType: 5
         Character: Amy
         Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
+        Key: 
         Option: 0
         Option2: 0
         Option3: 0
-        Value: _onPlayerEnterDownstairsHallway
+        Value: _onPlayerEnterLaundryRoom
         Value2: 
         SortOrder: 0
         Delay: 0
         StartDelayTime: 0
         UseConditions: 1
-        DisplayInEditor: 0
+        DisplayInEditor: 1
         Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: DownstairsHallway
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 69
         - BoolValue: 1
           Character: '#'
           Character2: '#'
@@ -2188,698 +2536,46 @@ MonoBehaviour:
           EquationValue: 30
           ItemComparison: 0
           Key: Player
-          Key2: CouchRight
+          Key2: SpareRoom2
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 4.34
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: Study
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 3.93
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 20
+          ItemComparison: 0
+          Key: Player
+          Key2: UpstairsBathroom
           Order: 2
           PlayerInventoryOption: 0
           PoseOption: 0
           SocialStatus: 0
-          Value: 6.65
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: CouchRight
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.76
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: DownstairsBathroom
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.3
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:DownstairsHallway
-          Key2: '#'
-          Order: 6
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterDownstairsBathroom
-        Value2: 
-        SortOrder: 1
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: DownstairsBathroom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: DownstairsBathroom
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.17
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:DownstairsBathroom
-          Key2: '#'
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterTvRoom
-        Value2: 
-        SortOrder: 2
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: TvRoom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: DirtMound
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 20.56
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: InFrontOfTV
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.95
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: DiningRoom
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.14
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:TvRoom
-          Key2: '#'
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterDiningRoom
-        Value2: 
-        SortOrder: 3
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: DiningRoom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 68.8
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 65.9
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: DiningRoom
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.8
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: Kitchen
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.58
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:DiningRoom
-          Key2: '#'
-          Order: 8
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterKitchen
-        Value2: 
-        SortOrder: 3
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: Kitchen
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 68.24
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 64.45
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: DiningRoom
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.9
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: KitchenSexSafe1
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.41
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: JustOutsideDownstairsBathroom
-          Order: 6
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 0.72
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: LivingRoomSexSafe1
-          Order: 7
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.26
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:Kitchen
-          Key2: '#'
-          Order: 8
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterLivingRoom
-        Value2: 
-        SortOrder: 4
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: LivingRoom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 66.97
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: LoadingDock
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 63.09
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: BehindBushes
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 6.08
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: LivingRoomSexSafe1
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.15
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:LivingRoom
-          Key2: '#'
-          Order: 8
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterGarage
-        Value2: 
-        SortOrder: 5
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: Garage
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: GarageSexSafe3
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.7
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:Garage
-          Key2: '#'
-          Order: 5
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
+          Value: 3.85
       - Version: 2.0
         Id: c64eac0a-15d8-4948-afb4-8359229b6e75
         Enabled: 1
@@ -2892,29 +2588,12 @@ MonoBehaviour:
         Option3: 0
         Value: _onPlayerEnterStairs
         Value2: 
-        SortOrder: 6
+        SortOrder: 1
         Delay: 0
         StartDelayTime: 0
         UseConditions: 1
-        DisplayInEditor: 0
+        DisplayInEditor: 1
         Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: Stairs
         - BoolValue: 1
           Character: '#'
           Character2: '#'
@@ -2937,7 +2616,7 @@ MonoBehaviour:
           Character2: '#'
           CompareType: 150
           DialogueStatus: 10
-          DisplayInEditor: 1
+          DisplayInEditor: 0
           DoorOptions: 0
           EqualsValue: 0
           EquationValue: 30
@@ -2954,7 +2633,7 @@ MonoBehaviour:
           Character2: '#'
           CompareType: 150
           DialogueStatus: 10
-          DisplayInEditor: 1
+          DisplayInEditor: 0
           DoorOptions: 0
           EqualsValue: 0
           EquationValue: 20
@@ -2971,7 +2650,7 @@ MonoBehaviour:
           Character2: '#'
           CompareType: 150
           DialogueStatus: 10
-          DisplayInEditor: 1
+          DisplayInEditor: 0
           DoorOptions: 0
           EqualsValue: 0
           EquationValue: 30
@@ -2983,573 +2662,6 @@ MonoBehaviour:
           PoseOption: 0
           SocialStatus: 0
           Value: 8.93
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:Stairs
-          Key2: '#'
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterUpstairsHallway
-        Value2: 
-        SortOrder: 7
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 1
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: UpstairsHallway
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: UpstairsHallway
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.34
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:UpstairsHallway
-          Key2: '#'
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 0
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterUpstairsHallway
-        Value2: 
-        SortOrder: 8
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 1
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: UpstairsHallway
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: SpareRoom2
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.67
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: SpareRoom2
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.28
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: JustOutsideUpstairsMasterBathroom
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.96
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: JustOutsideUpstairsMasterBathroom
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 4.74
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:UpstairsHallway
-          Key2: '#'
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterUpstairsHallway
-        Value2: 
-        SortOrder: 9
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 1
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: UpstairsHallway
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: JustOutsideUpstairsBathroom
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.03
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: ArtRoomCloset
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 4.97
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: Study
-          Order: 4
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.9
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: UpstairsBathroom
-          Order: 5
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.51
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: SpareBedroom
-          Order: 6
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 3.11
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 20
-          ItemComparison: 0
-          Key: Player
-          Key2: JustOutsideUpstairsMasterBathroom
-          Order: 7
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 4.58
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:UpstairsHallway
-          Key2: '#'
-          Order: 8
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterMasterBedroom
-        Value2: 
-        SortOrder: 10
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: MasterBedroom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: MasterBedroom
-          Order: 1
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 2.4
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:MasterBedroom
-          Key2: '#'
-          Order: 5
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterMasterBedroomCloset
-        Value2: 
-        SortOrder: 11
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: MasterBedroomCloset
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: MasterBedroomClosetMiddle
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.7
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:MasterBedroomCloset
-          Key2: '#'
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
-      - Version: 2.0
-        Id: c64eac0a-15d8-4948-afb4-8359229b6e75
-        Enabled: 1
-        EventType: 5
-        Character: Amy
-        Character2: 
-        Key: e855e199-c41f-40d3-84ca-309ca4ea5f48
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: _onPlayerEnterUpstairsMasterBathroom
-        Value2: 
-        SortOrder: 12
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 1
-        DisplayInEditor: 0
-        Criteria:
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 10
-          ItemComparison: 0
-          Key: Player:CurrentRoom
-          Key2: '#'
-          Order: 0
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: UpstairsMasterBathroom
-        - BoolValue: 1
-          Character: '#'
-          Character2: '#'
-          CompareType: 150
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 30
-          ItemComparison: 0
-          Key: Player
-          Key2: UpstairsMasterBathroom
-          Order: 2
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1.47
-        - BoolValue: 1
-          Character: Player
-          Character2: '#'
-          CompareType: 0
-          DialogueStatus: 10
-          DisplayInEditor: 1
-          DoorOptions: 0
-          EqualsValue: 0
-          EquationValue: 0
-          ItemComparison: 0
-          Key: Debug:UpstairsBathroom
-          Key2: '#'
-          Order: 3
-          PlayerInventoryOption: 0
-          PoseOption: 0
-          SocialStatus: 0
-          Value: 1
       Key: 
       Name: _TrackPlayerRooms
       ShowInInspector: 1
@@ -3579,222 +2691,6 @@ MonoBehaviour:
         StartDelayTime: 0
         UseConditions: 0
         DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:DownstairsHallway
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:DownstairsBathroom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:TvRoom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:DiningRoom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:Kitchen
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:LivingRoom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:Garage
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:Stairs
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:UpstairsHallway
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:MasterBedroom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:MasterBedroomCloset
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 0
-        Criteria: []
-      - Version: 2.0
-        Id: 9d548106-e1a6-4ba5-aad2-40fd2d603793
-        Enabled: 1
-        EventType: 0
-        Character: Player
-        Character2: 
-        Key: Debug:UpstairsBathroom
-        Option: 0
-        Option2: 0
-        Option3: 0
-        Value: 1
-        Value2: 
-        SortOrder: 0
-        Delay: 0
-        StartDelayTime: 0
-        UseConditions: 0
-        DisplayInEditor: 1
         Criteria: []
       - Version: 2.0
         Id: f6f500d6-0cfd-40ca-b669-91d99fe0d38c
@@ -4794,7 +3690,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: DownstairsHallway
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -4814,7 +3727,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -4832,7 +3745,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterDownstairsHallway
@@ -4842,7 +3755,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: DownstairsBathroom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -4862,7 +3792,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -4880,7 +3810,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterDownstairsBathroom
@@ -4890,7 +3820,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: TvRoom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -4910,7 +3857,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -4928,7 +3875,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterTvRoom
@@ -4938,7 +3885,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: DiningRoom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -4958,7 +3922,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -4976,7 +3940,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterDiningRoom
@@ -4986,7 +3950,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: Kitchen
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5006,7 +3987,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5024,7 +4005,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterKitchen
@@ -5034,7 +4015,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: LivingRoom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5054,7 +4052,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5072,7 +4070,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterLivingRoom
@@ -5082,7 +4080,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: Garage
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5102,7 +4117,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5120,7 +4135,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterGarage
@@ -5130,7 +4145,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: Stairs
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5150,7 +4182,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5168,7 +4200,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterStairs
@@ -5178,7 +4210,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: MasterBedroom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5198,7 +4247,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5212,11 +4261,11 @@ MonoBehaviour:
         Option3: 0
         Value: onPlayerEnterMasterBedroom
         Value2: 
-        SortOrder: 1
+        SortOrder: 0
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterMasterBedroom
@@ -5226,7 +4275,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: MasterBedroomCloset
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5246,7 +4312,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5264,7 +4330,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterMasterBedroomCloset
@@ -5274,7 +4340,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: UpstairsMasterBathroom
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5294,7 +4377,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5312,7 +4395,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterUpstairsMasterBathroom
@@ -5322,7 +4405,24 @@ MonoBehaviour:
       Value: 
       WalkToTargetOption: 0
     - CharacterToReactTo: Player
-      Critera: []
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: UpstairsHallway
       CurrentIteration: 0
       Enabled: 1
       Events:
@@ -5342,7 +4442,7 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       - Version: 2.0
         Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
@@ -5360,11 +4460,1840 @@ MonoBehaviour:
         Delay: 0
         StartDelayTime: 0
         UseConditions: 0
-        DisplayInEditor: 1
+        DisplayInEditor: 0
         Criteria: []
       Key: 
       Name: _onPlayerEnterUpstairsHallway
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera: []
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterDownstairsHallway
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: JustOutsideDownstairsBathroom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.78
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterDownstairsBathroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: DownstairsBathroom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.17
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: ArmChair
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.96
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: WatchTVSpot1
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: InFrontOfTV
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.11
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: WatchTVSpot2
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.61
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: CouchLeft
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 3.41
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: CouchMiddle
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.45
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: CouchRight
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.66
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterTvRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: Player
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: FrankChair
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.5
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterDiningRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: DiningRoom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.56
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterKitchen
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: Kitchen
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.33
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterKitchen
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: KitchenSexSafe1
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.33
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterKitchen
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: KitchenSexSafe2
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.22
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterLivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: LivingRoomSexSafe2
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.51
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterLivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: LivingRoomSexSafe1
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.1
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterLivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: LivingRoom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.06
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterLivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SofaRight
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.49
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterLivingRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SofaLeft
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.49
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterGarage
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: GarageSexSafe3
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.5
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterGarage
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: GarageSexSafe2
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.87
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterGarage
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: GarageSexSafe1
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.72
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: PoufBig
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.69
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomBedSex
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.34
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroomCloset
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomClosetDoor
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.56
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroomCloset
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomClosetMiddle
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.56
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterUpstairsMasterBathroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: UpstairsMasterBathroom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.45
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterUpstairsHallway
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: UpstairsHallway
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.19
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterUpstairsHallway
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: JustOutSideUpstairsBathroom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.98
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom2
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareRoom2
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.98
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom2
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: ArtRoomCloset
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.69
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterStudy
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: Study
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.18
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterStudy
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: OfficeChair
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.78
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareBedroom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.93
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 1000
+          DialogueStatus: 10
+          DisplayInEditor: 0
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 0
+          ItemComparison: 0
+          Key: '#'
+          Key2: '#'
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: '#'
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareRoom
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 2.01
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareRoomSofaLeft
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.5
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareRoomSofaMiddle
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.5
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: SpareRoomSofaRight
+          Order: 1
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.5
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomSexSafe1
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.66
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroom
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.32
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: PoufSmall
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.89
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomSexSafe2
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.72
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomClosetArea
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 0.93
+      - Version: 2.0
+        Id: fb348a3a-8515-4ee4-80e8-08e12c81b92a
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: _onPlayerEnterMasterBedroom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 1
+        DisplayInEditor: 0
+        Criteria:
+        - BoolValue: 1
+          Character: '#'
+          Character2: '#'
+          CompareType: 150
+          DialogueStatus: 10
+          DisplayInEditor: 1
+          DoorOptions: 0
+          EqualsValue: 0
+          EquationValue: 30
+          ItemComparison: 0
+          Key: Player
+          Key2: MasterBedroomSexSafe1
+          Order: 0
+          PlayerInventoryOption: 0
+          PoseOption: 0
+          SocialStatus: 0
+          Value: 1.33
+      Key: 
+      Name: _onPlayerMoveTargets
       ShowInInspector: 1
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 1
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: SpareRoom2
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: a8dc3a24-6420-4da0-b5a8-f92a42dd88f6
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom2
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onPlayerEnterSpareRoom2
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onPlayerEnterSpareRoom2
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: Study
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: a8dc3a24-6420-4da0-b5a8-f92a42dd88f6
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: Study
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      - Version: 2.0
+        Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onPlayerEnterStudy
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onPlayerEnterStudy
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 1
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: SpareRoom
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: a8dc3a24-6420-4da0-b5a8-f92a42dd88f6
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: SpareRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      - Version: 2.0
+        Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onPlayerEnterSpareRoom
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 1
+        Criteria: []
+      Key: 
+      Name: _onPlayerEnterSpareRoom
+      ShowInInspector: 0
+      Type: 0
+      UpdateIteration: 0
+      Value: 
+      WalkToTargetOption: 0
+    - CharacterToReactTo: Player
+      Critera:
+      - BoolValue: 1
+        Character: Player
+        Character2: '#'
+        CompareType: 0
+        DialogueStatus: 10
+        DisplayInEditor: 0
+        DoorOptions: 0
+        EqualsValue: 0
+        EquationValue: 10
+        ItemComparison: 0
+        Key: Player:CurrentRoom
+        Key2: '#'
+        Order: 0
+        PlayerInventoryOption: 0
+        PoseOption: 0
+        SocialStatus: 0
+        Value: LaundryRoom
+      CurrentIteration: 0
+      Enabled: 1
+      Events:
+      - Version: 2.0
+        Id: a8dc3a24-6420-4da0-b5a8-f92a42dd88f6
+        Enabled: 1
+        EventType: 0
+        Character: Player
+        Character2: 
+        Key: Player:CurrentRoom
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: LaundryRoom
+        Value2: 
+        SortOrder: 0
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      - Version: 2.0
+        Id: bbc94a8d-9439-41bf-a7c4-502fe4dacb2c
+        Enabled: 1
+        EventType: 5
+        Character: Amy
+        Character2: 
+        Key: 
+        Option: 0
+        Option2: 0
+        Option3: 0
+        Value: onPlayerEnterLaundryRoom
+        Value2: 
+        SortOrder: 1
+        Delay: 0
+        StartDelayTime: 0
+        UseConditions: 0
+        DisplayInEditor: 0
+        Criteria: []
+      Key: 
+      Name: _onPlayerEnterLaundryRoom
+      ShowInInspector: 0
       Type: 0
       UpdateIteration: 0
       Value: 
